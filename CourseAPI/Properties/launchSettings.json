@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "MoviesAPI": {
+    "CoursesAPI": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "weatherforecast",

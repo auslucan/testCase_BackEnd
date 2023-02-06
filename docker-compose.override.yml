@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  courseapi:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+
+  db:
+    container_name: Courses
+    environment:
+        SA_PASSWORD: "Password123"
+        ACCEPT_EULA: "Y"
+    restart: always
+    ports:
+        - "1433:1433"
